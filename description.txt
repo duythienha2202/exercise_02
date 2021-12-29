@@ -1,0 +1,5 @@
+The Hello World + Clock example is modified to service the PIT channel timeout with an interrupt service route: 
+• Initialize System Oscillator (SOSC) 
+• Initialize an LPIT channel for 1 second timeout and enable its interrupt 
+• Wait forever 
+• At LPIT timeout interrupt, toggle output to LED 
